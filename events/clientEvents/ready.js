@@ -1,10 +1,10 @@
 module.exports = {
   name: "ready",
   async execute(client) {
-    client.user.setActivity(`@${client.user.username} help | 🎶`, {
+    await client.user.setActivity(`a!help | ALPHA OP`, {
       type: "LISTENING",
     });
-    client.user.setStatus("online");
+    await client.user.setStatus("online");
     console.log(`- Activated -`);
   },
 };
