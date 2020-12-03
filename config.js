@@ -2,8 +2,8 @@ require("dotenv/config");
 
 module.exports = {
   token: process.env.TOKEN,
-  embedColor: "#b50002",
-  prefix: "!",
+  embedColor: "RED",
+  prefix: "a!",
 };
 
 module.exports.streamConfig = {
